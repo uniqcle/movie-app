@@ -6,7 +6,23 @@
 }
 
 body{
+    background-color: #22254b;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
  
+}
+
+.movie{
+     
+    width: 300px; 
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2); 
+    border-radius: 3px;
+}
+
+.movie img {
+    max-width: 100%; 
+}
+
+.movie-info{
+    
 }
