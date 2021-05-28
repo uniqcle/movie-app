@@ -24,5 +24,14 @@ body{
 }
 
 .movie-info{
-    
+    display: flex; 
+    justify-content: space-between;
+    color: #eee; 
+    padding: 1rem; 
+    letter-spacing: 1px; 
 }
+
+.movie-info h3{
+    margin: 0; 
+}
+
