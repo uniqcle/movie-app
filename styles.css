@@ -6,10 +6,36 @@
 }
 
 body{
-    background-color: #1E1F33;
+    background-color: #22254b;
     margin: 0; 
     font-family: "Poppins", sans-serif;
  
+}
+
+header{
+    color: #373b69;
+    display: flex; 
+    justify-content: flex-end;
+    padding: 1.5rem; 
+}
+
+.search{
+    padding: 0.5rem; 
+    background-color: transparent; 
+    border-radius: 50px; 
+    border: 2px solid #373b69;
+    font-size: 1rem; 
+    font-family: inherit;
+    color: white; 
+}
+
+.search::placeholder{
+    color: #373b69;
+}
+
+.search:focus{
+    background-color: #22254b;
+    outline: none; 
 }
 
 main{
@@ -22,7 +48,7 @@ main{
     width: 300px; 
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2); 
     border-radius: 3px;
-  
+    overflow: hidden; 
 }
 
 .movie img {
