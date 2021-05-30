@@ -49,6 +49,7 @@ main{
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2); 
     border-radius: 3px;
     overflow: hidden; 
+    position: relative; 
 }
 
 .movie img {
@@ -87,4 +88,21 @@ main{
 
 .movie-info span.orange{
     color: orange; 
+}
+
+.overview{
+    position: absolute; 
+    max-height: 100%; 
+    overflow: auto;  
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    background: #fff; 
+    padding: 2rem; 
+    transform: translateY(100%); 
+    transition: transform 0.3s ease-in; 
+}
+
+.movie:hover .overview{
+    transform: translateY(0); 
 }
